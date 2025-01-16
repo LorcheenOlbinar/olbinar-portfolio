@@ -1,24 +1,14 @@
- body {
-            font-family: Arial, ;
-            background-color: #f9f9f9;
-            color: #333;
-        }
 
-        .top-right {
-            position: absolute;
-            top: 120px;
-            right: 20px;
-            
-           
-        }
+.section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #dacbcb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
 
-        .section {
-            margin: 20px 10px;
-          
-            background-color: #fff;
-            border-radius: 5px;
-            box-shadow: 0 2px  rgba(0, 0, 0, 0.1);
-        }
-
-        
-      

@@ -3,81 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" integrity="sha384-dyB5jFZ8y00y3RkDclTClW0RMFdl4Vhxbo2d0k7nlUjl4TMeZZej4u0cN3Mt6kJQ" crossorigin="anonymous">
+
     <title>Portfolio</title>
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <title>Bootstrap Example</title>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-      <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-    
+</head>
+<body>
+    <nav id="navbar-example2" class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#scrollspyHeading1">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#scrollspyHeading2">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#scrollspyHeading3">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#scrollspyHeading5">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="scrollspyHeading1" class="section">
+        <div>
+            <img src="img/pic1.jpg" alt="" class="rounded-circle mb-3" style="width: 200px; height: 200px; object-fit: cover;">
+            <p><h3><strong>NAME:</strong> LORCHEEN OLBINAR</h3></p>
+            <p><h3><strong>AGE:</strong> 23</h3></p>
+            <p><h3><strong>GENDER:</strong> FEMALE</h3></p>
+            <p><h3><strong>BIRTHDAY:</strong> AUGUST 14, 2001</h3></p>
+            <p><h3><p><strong>BIRTHPLACE:</strong> POBLACION SUMILAO BUKIDNON</p></h3>
+            <p><h3><strong>NATIONALITY:</strong> FILIPINO</h3></p>
           
-          <ul class="nav navbar-nav">
-            <li class="#home"><a href="#">Home</a></li>
-            <li> <a href="#skills">Skills</a></li>
-            <li> <a href="#contact">Contact</a></li>
-            <li><a href="#"></a></li>
-          </ul>
-        </div>
-      </nav>
-        
-
-        
-
-    <div class="jumbotron text-center">          
-  <img src="img/pic1.jpg" class="top-right" alt="example.jpg" width="300" height="235" > 
-  <section id="home" class="section">
-    <div class="container">
-
-  <p>NAME: LORCHEEN, OLBINAR</p>
-  <p> AGE: 23</p>
-  <p>GENDER: FEMALE</p>
-  <p>BIRTHDAY: August 14, 2001</p>
-  <p>BIRTHPLACE: Poblacion Sumilao Bukidnon</p>
-  <P>NATIONALITY: Filipino</P>
-  <p>RELIGION: Roman Catholic</p>
-  <p> CIVIL STATUS: Single</p>
- 
-</div>
-</section>
-
-
-
-<section id="skills" class="section">
-    <div class="container">
-        <h2>SKILLS</h2>
-        <div class="project">
-            <h4>FRONT-END DEVELOPER</h4>
-            <h4>PHOTO AND VIDEO EDITOR</h4>
-            <p></p>
-        </div>
-        <div class="skills">
-            <h3></h3>
-            <p></p>
+            
+    
+            
         </div>
     </div>
-</section>
-<section id="contact" class="section">
-  <div class="container">
-      <h2>Contact</h2>
-      <p><i class="fas fa-envelope"></i> Email: <a href="mailto:lorcheenolbinar@gmail.com">lorcheenolbinar@gmail.com</a></p>
-      <p><i class="fas fa-phone"></i> Phone: <a href="tel:+639392561988">+63 93682495</a></p>
-      <p><i class="fas fa-map-marker-alt"></i> Place: Zone 3 Poblacion, Sumilao, Bukidnon</p>
-      <div class="contact-icons">
-        <p><i class="fab fa-facebook">Facebook:<a href="https://www.facebook.com/Ms.Lorcheen">Lorcheen Olbinar</i></a></p>
-          
-      </div>
-  </div>
-</section>
+
+    <div id="scrollspyHeading2" class="section">
+        <div>
+            <h3 id="scrollspyHeading2">EDUCATION</h3>
+            <p><h3><strong>ELEMENTARY:</strong> SUMILAO ELEMENTARY SCHOOL</h3></p>
+            <p><h3><strong>JUNIOR HIGH:</strong> SUMILAO NATIONAL HIGH SCHOOL</h3></p>
+            <p><h3><strong>SENIOR HIGH:</strong> SUMILAO SENIOR HIGH SCHOOL</h3></p>
+            <p><h3><strong>COLLEGE:</strong> NORTHERN BUKIDNON STATE COLLEGE</h3></p>
+            <p><h3><strong>COURSE:</strong> BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY</h3></p>
+        </div>
+    </div>
+
+    <div id="scrollspyHeading3" class="section">
+        <div>
+            <h3>SKILLS</h3>
+            <ul>
+               <h3> WEB DEVELOPMENT</h3>
+             <h3>RESPONSIVE WEB DESIGN</h3>
+                <h3>VIDEO EDITING AND GRAPHIC DESIGN</h3>
+            <h3>MICROSOFT OFFICE APPLICATIONS </h3>
+               
+            </ul>
+        </div>
+    </div>
 
 
+    <div id="scrollspyHeading5" class="section">
+        <div>
+            <h3>Contact</h3>
 
+           <h3> <p><i class="glyphicon glyphicon-envelope"></i> Email: <a href="mailto:lorcheenolbinar@gmail.com">lorcheenolbinar@gmail.com</a></p></h3>
+            <h3><p><i class="glyphicon glyphicon-phone"></i> Phone: <a href="tel:+639392561988">+63 93682495</a></p></h3>
+            <h3><p><i class="glyphicon glyphicon-map-marker"></i> Place: Zone 3 Poblacion, Sumilao, Bukidnon</p></h3>
+            <h3><p><i class="glyphicon glyphicon-user"></i> Facebook: <a href="https://www.facebook.com/Ms.Lorcheen" target="_blank">Lorcheen Olbinar</a></p></h3>
+        </div>
+
+    </div>
 </body>
 </html>
